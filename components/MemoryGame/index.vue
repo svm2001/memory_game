@@ -43,8 +43,8 @@
         <button class="btn btn-accent" @click="showLeaderboard">
           🏆 Таблица лидеров
         </button>
-        <button class="btn btn-outline" @click="changePlayer">
-          👤 Сменить игрока
+        <button class="btn btn-player-change" @click="changePlayer">
+          <span class="player-icon">👤</span> Сменить игрока
         </button>
       </div>
     </div>
