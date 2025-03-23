@@ -1,0 +1,50 @@
+[
+  {
+    "name": "car",
+    "emoji": "🚗"
+  },
+  {
+    "name": "bus",
+    "emoji": "🚌"
+  },
+  {
+    "name": "taxi",
+    "emoji": "🚕"
+  },
+  {
+    "name": "train",
+    "emoji": "🚂"
+  },
+  {
+    "name": "metro",
+    "emoji": "🚇"
+  },
+  {
+    "name": "tram",
+    "emoji": "🚊"
+  },
+  {
+    "name": "airplane",
+    "emoji": "✈️"
+  },
+  {
+    "name": "helicopter",
+    "emoji": "🚁"
+  },
+  {
+    "name": "rocket",
+    "emoji": "🚀"
+  },
+  {
+    "name": "ship",
+    "emoji": "🚢"
+  },
+  {
+    "name": "motorcycle",
+    "emoji": "🏍️"
+  },
+  {
+    "name": "bicycle",
+    "emoji": "🚲"
+  }
+] 

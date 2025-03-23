@@ -1,0 +1,50 @@
+[
+  {
+    "name": "apple",
+    "emoji": "🍎"
+  },
+  {
+    "name": "banana",
+    "emoji": "🍌"
+  },
+  {
+    "name": "grapes",
+    "emoji": "🍇"
+  },
+  {
+    "name": "pear",
+    "emoji": "🍐"
+  },
+  {
+    "name": "orange",
+    "emoji": "🍊"
+  },
+  {
+    "name": "strawberry",
+    "emoji": "🍓"
+  },
+  {
+    "name": "watermelon",
+    "emoji": "🍉"
+  },
+  {
+    "name": "burger",
+    "emoji": "🍔"
+  },
+  {
+    "name": "pizza",
+    "emoji": "🍕"
+  },
+  {
+    "name": "sushi",
+    "emoji": "🍣"
+  },
+  {
+    "name": "icecream",
+    "emoji": "🍦"
+  },
+  {
+    "name": "cake",
+    "emoji": "🍰"
+  }
+] 

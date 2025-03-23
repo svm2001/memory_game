@@ -1,0 +1,50 @@
+[
+  {
+    "name": "cat",
+    "emoji": "🐱"
+  },
+  {
+    "name": "dog",
+    "emoji": "🐶"
+  },
+  {
+    "name": "rabbit",
+    "emoji": "🐰"
+  },
+  {
+    "name": "fox",
+    "emoji": "🦊"
+  },
+  {
+    "name": "bear",
+    "emoji": "🐻"
+  },
+  {
+    "name": "panda",
+    "emoji": "🐼"
+  },
+  {
+    "name": "tiger",
+    "emoji": "🐯"
+  },
+  {
+    "name": "lion",
+    "emoji": "🦁"
+  },
+  {
+    "name": "monkey",
+    "emoji": "🐵"
+  },
+  {
+    "name": "penguin",
+    "emoji": "🐧"
+  },
+  {
+    "name": "koala",
+    "emoji": "🐨"
+  },
+  {
+    "name": "elephant",
+    "emoji": "🐘"
+  }
+] 

@@ -1,0 +1,84 @@
+.game-card {
+  aspect-ratio: 3 / 2;
+  cursor: pointer;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+  max-width: 120px;
+  width: 100%;
+  min-width: 148px;
+  min-height: 70px;
+  margin: 0 auto;
+}
+
+.game-card:hover {
+  transform: none;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+.card-front, .card-back {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  background: linear-gradient(90deg, rgba(9,64,121,1) 0%, rgba(0,12,65,1) 100%);
+  color: white;
+  transition: all 0.3s ease;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-front:hover {
+  background: linear-gradient(90deg, rgba(9,64,121,0.896796218487395) 0%, rgba(0,12,65,0.8995973389355743) 100%);
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.3);
+  font-size: 66px;
+}
+
+.card-back {
+  background: linear-gradient(135deg, #ffffff, #f8f9fa);
+  color: #2c3e50;
+  border: 2px solid #2c3e50;
+  transform: rotateY(180deg);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-back.matched {
+  background: linear-gradient(135deg, #277cae, #00e762);
+  color: white;
+  animation: pulse 1s;
+  box-shadow: 0 0 15px rgba(46, 204, 113, 0.5);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1) rotateY(180deg);
+    box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.7);
+  }
+  
+  50% {
+    transform: scale(1.05) rotateY(180deg);
+    box-shadow: 0 0 0 10px rgba(46, 204, 113, 0);
+  }
+  
+  100% {
+    transform: scale(1) rotateY(180deg);
+    box-shadow: 0 0 0 0 rgba(46, 204, 113, 0);
+  }
+} 
